@@ -28,7 +28,7 @@
 			var s = new Date().getSeconds();
 			var am = "AM";
 
-		    if(h > 12){
+		    if(h >= 12){
 		        h = h - 12;
 		       var am = "PM"
 		    }
@@ -40,7 +40,7 @@
 			hours.innerHTML = h;
 			minutes.innerHTML = m;
 			seconds.innerHTML = s;
-			ampm.innerHTML = am
+			ampm.innerHTML = am;
 
 		}
 
